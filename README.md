@@ -7,7 +7,7 @@ An AI-powered SaaS that creates professional product images and videos using Goo
 > Can be re-enabled instantly by activating Google Cloud billing.
 
 ## Live Demo
-- 🌐 Frontend: https://ad-49sxv2815-ruchita-codes-projects.vercel.app
+- 🌐 Frontend: https://ad-gen-beta.vercel.app
 - 🔧 Backend: https://adgen-backend-awza.onrender.com
 
 ## Features
