@@ -73,8 +73,8 @@ export default function Hero() {
                                 viewport={{ once: true }}
                                 transition={{ type: "spring", stiffness: 250, damping: 70, mass: 1, delay: 0.2 }}
                             >
-                            Upload your product image and model photo, and our AI generates engaging, UGC-style video ads ready for Instagram, YouTube Shorts, and TikTok.
-                            No editing skills needed — just upload, customize, and let AI do the magic.
+                                Upload your product image and model photo, and our AI generates engaging, UGC-style video ads ready for Instagram, YouTube Shorts, and TikTok.
+                                No editing skills needed — just upload, customize, and let AI do the magic.
                             </motion.p>
 
                             <motion.div className="flex flex-col sm:flex-row items-center gap-4 mb-8"
@@ -85,15 +85,19 @@ export default function Hero() {
                             >
                                 <a href="/" className="w-full sm:w-auto">
                                     <PrimaryButton className="max-sm:w-full py-3 px-7">
-                                        Start generating - it's free
+                                        Start Generating 
                                         <ArrowRightIcon className="size-4" />
                                     </PrimaryButton>
                                 </a>
 
-                                <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
-                                    <PlayIcon className="size-4" />
-                                    Watch demo
-                                </GhostButton>
+                                <a href="/community" className="w-full sm:w-auto">
+                                    <GhostButton className="max-sm:w-full max-sm:justify-center py-3 px-5">
+                                        <PlayIcon className="size-4" />
+                                        Watch demo
+                                    </GhostButton>
+
+                                </a>
+
                             </motion.div>
 
                             <motion.div className="flex sm:inline-flex overflow-hidden items-center max-sm:justify-center text-sm text-gray-200 bg-white/10 rounded"
