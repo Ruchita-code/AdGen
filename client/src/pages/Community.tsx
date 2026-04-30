@@ -83,26 +83,7 @@ const CommunityModal = ({ project, onClose }: { project: Project; onClose: () =>
             {/* downloads */}
             <div className="glass-panel p-4 rounded-2xl">
               <h3 className="text-base font-semibold mb-3">Actions</h3>
-              {/* <div className="flex flex-col gap-2">
-                <a href={project.generatedImage} download target="_blank" rel="noreferrer">
-                  <GhostButton
-                    disabled={!project.generatedImage}
-                    className="w-full justify-center rounded-md py-2.5 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
-                  >
-                    <ImageIcon className="size-4" />
-                    Download Image
-                  </GhostButton>
-                </a>
-                <a href={project.generatedVideo} download target="_blank" rel="noreferrer">
-                  <GhostButton
-                    disabled={!project.generatedVideo}
-                    className="w-full justify-center rounded-md py-2.5 disabled:opacity-50 disabled:cursor-not-allowed text-sm"
-                  >
-                    <VideoIcon className="size-4" />
-                    Download Video
-                  </GhostButton>
-                </a>
-              </div> */}
+              
               <div className="flex flex-col gap-2">
   <GhostButton
     disabled={!project.generatedImage}
